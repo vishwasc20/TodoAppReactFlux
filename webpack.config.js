@@ -13,10 +13,6 @@ module.exports = {
     contentBase: "layouts"
   },
   plugins: [
-    new extractTextPlugin({ // define where to save the file
-      filename: './css/cssBundle.css',
-      allChunks: true
-    }),
     new webpack.HotModuleReplacementPlugin()
   ],
   module: {

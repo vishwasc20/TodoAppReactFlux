@@ -13,7 +13,7 @@ export default class TodoApp extends Component {
     render(){
         return (
             <div id="reactApp">
-                <TodoTitle title="React Todo App"/>
+                <TodoTitle title="React/Flux Todo App"/>
                 <TodoForm placeHolder="What needs to be Done?"/>
                 <TodoList />
             </div>
