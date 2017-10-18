@@ -2,7 +2,7 @@
 A Simple Todo App using React and Flux
 
 # Build
-`build`
+`npm run build`
 
 # HMR
-`start` and browse using `localhost:8080`
+`npm run start` and browse using `localhost:8080`
